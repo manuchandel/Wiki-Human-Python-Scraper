@@ -7,7 +7,7 @@ db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="", db="La
 cursor=db.cursor()
 
 # url to start with
-url='https://www.wikidata.org/wiki/Special:WhatLinksHere/Q5'
+url='https://www.wikidata.org/w/index.php?title=Special:WhatLinksHere/Q5&limit=500'
 
 for i in range(1,1001) :
 
