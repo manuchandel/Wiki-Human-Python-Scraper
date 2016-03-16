@@ -9,7 +9,7 @@ cursor=db.cursor()
 # url to start with
 url='https://www.wikidata.org/w/index.php?title=Special:WhatLinksHere/Q5&limit=500'
 
-for i in range(1,1001) :
+for i in range(1,101) :
 
 	# get web page from given url
 	data = urllib2.urlopen( url ).read()
