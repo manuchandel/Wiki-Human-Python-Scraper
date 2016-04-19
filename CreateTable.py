@@ -1,6 +1,6 @@
 import MySQLdb
 
-db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="", db="TestData",charset='utf8' )
+db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="password", db="TestData",charset='utf8' )
 cursor=db.cursor()
 
 sql="""CREATE TABLE IF NOT EXISTS WikiHumans (
