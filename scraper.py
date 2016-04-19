@@ -3,7 +3,7 @@ import urllib2
 import MySQLdb
 
 # connecting to database
-db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="", db="LabBasedProject",charset='utf8' )
+db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="password", db="LabBasedProject",charset='utf8' )
 cursor=db.cursor()
 
 # url to start with
