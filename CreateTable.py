@@ -1,5 +1,4 @@
 import MySQLdb
-import nltk
 
 db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="", db="TestData",charset='utf8' )
 cursor=db.cursor()
